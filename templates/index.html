@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Explorer</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="explorer">
+        <div class="title">Files</div>
+        <div class='breadcrumbs__wrapper'>
+            <span class='breadcrumbs'></span>
+            <button class='add-dir-button'>add dir</button>
+        </div>
+        <ul class='file-list'>
+        </ul>
+    </div>
+    <div class='add-dir-window'>
+        <form class="add-dir-form">
+            <input type="text"
+                   placeholder="empty"
+                   class="add-dir-input"
+                   required>
+            <button class="add-dir-confirm-button">ок</button>
+        </form>
+    </div>
+    <script src="/static/js/index.js"></script>
+</body>
+</html>
